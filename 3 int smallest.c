@@ -6,9 +6,9 @@ int main()
     printf("Enter three diff numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    if (a <= b && a <= c)
+    if (a < b && a < c)
         printf("Smallest = %d", a);
-    else if (b <= a && b <= c)
+    else if (b < a && b < c)
         printf("Smallest = %d", b);
     else
         printf("Smallest = %d", c);
